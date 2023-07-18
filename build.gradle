@@ -3,9 +3,9 @@ buildscript {
     repositories {
         maven { url 'https://www.jitpack.io' }
         maven { url 'https://maven.fabricmc.net/' }
+        mavenLocal()
         mavenCentral()
         jcenter()
-        mavenLocal()
         gradlePluginPortal()
     }
 
@@ -16,3 +16,6 @@ buildscript {
 
 apply plugin: 'minecraft.plugin'
 
+minecraft {
+    version = "1.20.1"
+}
