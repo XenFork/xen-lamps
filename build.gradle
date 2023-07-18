@@ -14,5 +14,5 @@ buildscript {
     }
 }
 
-apply plugin: 'xen-container'
+apply plugin: 'minecraft.plugin'
 
