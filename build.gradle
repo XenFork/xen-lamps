@@ -1,20 +1,27 @@
-buildscript {
-
-    repositories {
-        maven { url 'https://www.jitpack.io' }
-        maven { url 'https://maven.fabricmc.net/' }
-        mavenLocal()
-        mavenCentral()
-        jcenter()
-        gradlePluginPortal()
-    }
-
-    dependencies {
-        classpath "io.github.xenfork:xen-container:1.0.1.1"
-    }
+//buildscript {
+//
+//    repositories {
+//        maven { url 'https://www.jitpack.io' }
+//        maven { url 'https://maven.fabricmc.net/' }
+//        mavenLocal()
+//        mavenCentral()
+//        jcenter()
+//        gradlePluginPortal()
+//    }
+//
+//    dependencies {
+//        classpath "io.github.xenfork:xen-container:1.0.1.1"
+//    }
+//}
+//
+//apply plugin: 'minecraft.plugin'
+//apply plugin: 'table.plugin'
+//apply plugin: 'remap.plugin'
+plugins {
+    id 'minecraft.plugin' version '1.0.1.1'
+    id 'table.plugin' version '1.0.1.1'
+    id 'remap.plugin' version '1.0.1.1'
 }
-
-apply plugin: 'minecraft.plugin'
 
 minecraft {
     version = "1.20.1"
