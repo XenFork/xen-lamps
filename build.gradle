@@ -18,9 +18,10 @@
 //apply plugin: 'table.plugin'
 //apply plugin: 'remap.plugin'
 plugins {
-    id 'minecraft.plugin' version '1.0.1.1'
-    id 'table.plugin' version '1.0.1.1'
-    id 'remap.plugin' version '1.0.1.1'
+//    id 'minecraft.plugin' version '1.0.1.1'
+//    id 'table.plugin' version '1.0.1.1'
+//    id 'remap.plugin' version '1.0.1.1'
+    id 'loader.plugin' version '1.0.1.1'
 }
 
 minecraft {
