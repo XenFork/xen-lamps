@@ -1,6 +1,9 @@
 {
     "desc": "Used to export classes to src/main",
     "obf class": [
-        "net.minecraft.client.main.Main"
+        "net.minecraft.client.main.Main",
+        "net.minecraft.client.main.Main$1",
+        "net.minecraft.client.main.Main$2",
+        "net.minecraft.client.main.Main$3"
     ]
 }
